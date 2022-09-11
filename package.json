@@ -1,0 +1,29 @@
+{
+  "name": "baron-ai",
+  "version": "0.0.1",
+  "description": "Simple home automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekkemarr/Baron-ai.git"
+  },
+  "keywords": [
+    "automation",
+    "ai",
+    "home"
+  ],
+  "author": "bekkemarr@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bekkemarr/Baron-ai/issues"
+  },
+  "homepage": "https://github.com/bekkemarr/Baron-ai#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
